@@ -18,8 +18,8 @@ app.add_middleware(
 )
 
 # ── Load models & data ────────────────────────────────────────────────────────
-stream_model  = joblib.load("models/stream_model.pkl")
-stream_scaler = joblib.load("models/stream_scaler.pkl")
+stream_model  = joblib.load("model/stream_model.pkl")
+stream_scaler = joblib.load("model/stream_scaler.pkl")
 college_data  = pd.read_csv("colleges_data.csv")
 
 # ── Schema ────────────────────────────────────────────────────────────────────
