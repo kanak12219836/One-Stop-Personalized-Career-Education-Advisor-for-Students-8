@@ -5,6 +5,15 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from typing import Optional
+# (tera poora code same rahega)
+
+@app.get("/")
+def home():
+    return {"message": "API running"}
+
+@app.get("/health")
+def health():
+    return {"status": "ok"}
 
 # ── App ───────────────────────────────────────────────────────────────────────
 app = FastAPI(title="Career & Education Advisor API")
