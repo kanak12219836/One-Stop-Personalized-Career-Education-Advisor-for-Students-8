@@ -1,0 +1,2 @@
+# One-Stop-Personalized-Career-Education-Advisor-for-Students-8
+A One-Stop Personalized Career &amp; Education Advisor for Students is an intelligent platform that analyzes individual skills, interests, and academic performance to recommend suitable career paths and educational options. It provides tailored guidance, helping students make informed decisions about their future with clarity and confidence.
